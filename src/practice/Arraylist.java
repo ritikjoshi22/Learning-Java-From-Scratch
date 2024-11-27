@@ -20,8 +20,8 @@ public class Arraylist {
 		for(int i=0; i<food.size(); i++) {
 			System.out.println(food.get(i));
 		}
-		
-ArrayList<ArrayList<String>> groceryList = new ArrayList();
+		//2D array
+		ArrayList<ArrayList<String>> groceryList = new ArrayList();
 		
 		ArrayList<String> bakeryList = new ArrayList();
 		bakeryList.add("pasta");

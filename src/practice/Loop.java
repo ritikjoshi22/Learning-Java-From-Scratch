@@ -1,6 +1,6 @@
 package practice;
 import java.util.Scanner;  // Import the Scanner class
-
+import java.util.ArrayList;
 public class Loop {
 	public static void main(String[] args) {
 		// while loop = executes a block of code as long as a it's condition remains true
@@ -39,7 +39,23 @@ public class Loop {
 					for(int j=1; j<=columns;j++) {
 						System.out.print(symbol);
 					}
-				}	
+				}
+				
+				// for-each = 	traversing technique to iterate through the elements in an array/collection
+				//				less steps, more readable
+				//				less flexible
+				
+				//String[] animals = {"cat","dog","rat","bird"};
+				ArrayList<String> animals = new ArrayList<String>();
+				
+				animals.add("cat");
+				animals.add("dog");
+				animals.add("rat");
+				animals.add("bird");
+				
+				for(String i : animals) {
+					System.out.println(i);
+				}
 				scanner.close();
 	}
 }
