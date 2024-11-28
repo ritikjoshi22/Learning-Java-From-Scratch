@@ -31,4 +31,7 @@ public class Car extends Vehicle {
 	void brake() {
 		System.out.println("You step on the brakes");
 	}
+	void come() {
+		
+	}
 }

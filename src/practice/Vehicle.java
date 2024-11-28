@@ -1,6 +1,6 @@
 package practice;
 
-public class Vehicle {
+public abstract class Vehicle {
 	double speed;
 
 	void go(){
@@ -9,4 +9,5 @@ public class Vehicle {
 	void stop(){
 	System.out.println("This vehicle is stopped");
 	}
+	abstract void come();
 }
