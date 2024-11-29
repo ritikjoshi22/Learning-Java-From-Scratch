@@ -1,20 +1,40 @@
 package practice;
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
-public class excepHandling {
+public class ExcepHandling {
+
 	public static void main(String[] args) {
-		int a = 100;
-		int b = 10;
-		int[] arr = {1,2,3,4,5};
+		
+		// exception = 	an event that occurs during the execution of a program that,
+		//				disrupts the normal flow of instructions
+		
+		Scanner scanner = new Scanner(System.in);
+		
 		try {
-			int result = a / b;
-			System.out.println("Result:"+result);
-			System.out.println("Index at 10:"+arr[10]);
-		}catch(ArithmeticException e){
-			System.out.println("Error: Divide by zero");
-		}catch(ArrayIndexOutOfBoundsException e) {
-			System.out.println("Error: Out of bound");
-		}catch(Exception e) {
-			System.out.println("Unexpected Error");
+		
+			System.out.println("Enter a whole number to divide: ");
+			int x = scanner.nextInt();
+		
+			System.out.println("Enter a whole number to divide by: ");
+			int y = scanner.nextInt();
+		
+			int z = x/y;
+		
+			System.out.println("result: " + z);
 		}
+		catch(ArithmeticException e) {
+			System.out.println("You can't divide by zero! IDIOT!");
+		}
+		catch(InputMismatchException e) {
+			System.out.println("PLEASE ENTER A NUMBER OMFG!!!");
+		}
+		catch(Exception e) {
+			System.out.println("Something went wrong");
+		}
+		finally {
+			scanner.close();
+		}
+			
 	}
 }
