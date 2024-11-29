@@ -12,30 +12,37 @@ public class Main {
 //      scanner.close();
       
       //Object Passing
-      Cars car = new Cars("BMW");
-      Garage garage = new Garage();
-      garage.park(car);
-        
-        
-     // static = modifier. A single copy of a variable/method is created and shared.
- 		//			The class "owns" the static member
- 		
-    	Friend friend1 = new Friend("Sponegbob");
-    	Friend friend2 = new Friend("Patrick");
-    	Friend friend3 = new Friend("Patrick");
- 		
-    	Friend.displayFriends();
-        	
-        	//Super keyword implementation
-        	Hero hero = new Hero("Batman", 42, "I am rich");
-     		System.out.println(hero);
+//      Cars car = new Cars("BMW");
+//      Garage garage = new Garage();
+//      garage.park(car);
+//        
+//        
+//     // static = modifier. A single copy of a variable/method is created and shared.
+// 		//			The class "owns" the static member
+// 		
+//    	Friend friend1 = new Friend("Sponegbob");
+//    	Friend friend2 = new Friend("Patrick");
+//    	Friend friend3 = new Friend("Patrick");
+// 		
+//    	Friend.displayFriends();
+//        	
+//        	//Super keyword implementation
+//        	Hero hero = new Hero("Batman", 42, "I am rich");
+//     		System.out.println(hero);
      		
      	// abstract =  	abstract classes cannot be instantiated, but they can have a subclass
     		//				abstract methods are declared without an implementation
      		//
      		//
      		
-     		
+		
+		//Interface implementation
+		//Interface = a template that can be applied to a class. 
+		//            Similar to inheritance, but specifies what a class has/must do. 
+		//            Classes can apply more than one interface, inheritance is limited to 1 super.
+		
+		InterfaceMethod im = new InterfaceMethod();
+		im.flee();
      		
 	}
 }
