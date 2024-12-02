@@ -11,7 +11,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		// JPanel = a GUI component that functions as a container to hold other components
-		ImageIcon icon = new ImageIcon("thumbsup.png");
+		ImageIcon icon = new ImageIcon("logo.png");
 		
 		JLabel label = new JLabel();
 		label.setText("Hi");
