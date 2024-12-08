@@ -8,7 +8,7 @@ public class Main {
 		   
 		   MyGenericClass<Integer,Integer> myInt = new MyGenericClass<>(1,9);
 		   MyGenericClass<Double,Double> myDouble = new MyGenericClass<>(3.14,1.01);   
-		   //MyGenericClass<Character,Character> myChar = new MyGenericClass<>('@','$');
+		   //MyGenericClass<Character,Char-----------------------------------acter> myChar = new MyGenericClass<>('@','$');
 		   //MyGenericClass<String,Character> myString = new MyGenericClass<>("Hello",'!');
 		  
 		   	   
