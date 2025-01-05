@@ -11,7 +11,7 @@ public class MultiThreadCounter {
         t1.setName("Thread-1");
         t2.setName("Thread-2");
         t3.setName("Thread-3");
-
+        
         // Start the threads
         t1.start();
         t2.start();
