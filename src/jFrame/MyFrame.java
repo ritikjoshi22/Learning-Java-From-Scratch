@@ -7,6 +7,11 @@ import javax.swing.JFrame;
 
 public class MyFrame extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	MyFrame(){
 		
 		this.setTitle("Hello Ritik"); // sets the tile of the this

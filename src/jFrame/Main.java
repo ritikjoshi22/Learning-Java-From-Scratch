@@ -1,10 +1,5 @@
 package jFrame;
 
-import java.awt.Color;
-
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -20,6 +15,7 @@ public class Main {
 //		frame.setIconImage(image.getImage()); // set icon of the frame
 //		frame.getContentPane().setBackground(new Color(0,255,0)); //change background color of the frame
 	
+	@SuppressWarnings("unused")
 	MyFrame myFrame = new MyFrame();
 	}
 }
